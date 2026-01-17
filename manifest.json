@@ -1,0 +1,20 @@
+{
+  "Group": "SnowdramaGames",
+  "Name": "Snowdrama Improved Repair Kits",
+  "Version": "0.0.1",
+  "Description": "",
+  "Authors": [
+    {
+      "Name": "Snowdrama",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

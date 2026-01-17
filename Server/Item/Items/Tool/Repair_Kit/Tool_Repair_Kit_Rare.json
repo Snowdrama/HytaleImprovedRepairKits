@@ -1,0 +1,77 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Tool_Repair_Kit_Rare.name",
+    "Description": "server.items.Tool_Repair_Kit_Rare.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Tool_Repair_Kit_Rare.png",
+  "Model": "Items/Tools/Repair_Kit/Repair_Kit_Iron.blockymodel",
+  "Texture": "Items/Tools/Repair_Kit/Repair_Kit_Thorium_Texture.png",
+  "Parent": "Tool_Repair_Kit_Crude",
+  "ItemLevel": 1,
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "OpenCustomUI",
+          "Page": {
+            "Id": "ItemRepair",
+            "RepairPenalty": 0.0
+          }
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "OpenCustomUI",
+          "Page": {
+            "Id": "ItemRepair",
+            "RepairPenalty": 0.0
+          }
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "TimeSeconds": 1,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Tool_Repair_Kit_Iron",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tools"
+        ],
+        "Id": "Workbench"
+      }
+    ]
+  },
+  "MaxStack": 1,
+  "DropOnDeath": false,
+  "Quality": "Rare",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}
